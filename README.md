@@ -1,23 +1,22 @@
-# sparkar-dateformat
-> Patch script for date formatting for Spark AR Studio.
+# SparkFormatDate
+> Script de patch para formatação de data para Spark AR Studio.
 
 ![Screenshot](./screenshot.jpg)
 
-## Install
 
 ## Usage
-Below are the patch inputs/outputs you have to define for the script.
+Abaixo estão as inputs/outputs de patch que você deve definir para o script.
 
 ### From Script
 
 #### `date`
-* **Description**: Formatted date you receive from the script.
+* **Description**: Data formatada que você recebe do script.
 * **Type**: Text
 
 ### To Script
 
 #### `format`
-* **Description**: Set in which format pattern the date text will be generated.
+* **Description**: Defina em qual padrão de formato o texto da data será gerado.
 * **Type**: Text
 * **Optional**: `true`
 * **Default**: `'YYYY-MM-DD HH:mm:ss'`
@@ -43,13 +42,13 @@ Below are the patch inputs/outputs you have to define for the script.
 | `a` | `am` | Post or ante meridiem in lowercase.
 
 #### `refreshInterval`
-* **Description**: Interval in seconds in which the date text will be refreshed. 
+* **Description**: Intervalo em segundos em que o texto da data será atualizado.
 * **Type**: Number
 * **Optional**: `true`
 * **Default**: `1`
 
 #### `debug`
-* **Description**: Display debug messages on console. 
+* **Description**: Exibir mensagens de depuração no console.
 * **Type**: Boolean
 * **Optional**: `true`
 * **Default**: `false`
@@ -57,4 +56,3 @@ Below are the patch inputs/outputs you have to define for the script.
 ## Credits
 * [Josh Beckwith](https://github.com/positlabs) for making [spark-localtime](https://github.com/positlabs/spark-localtime), which inspired me to create this script. I originally planned to contribute to his repo, but since his script relied on the `toLocaleDateString` method and it doesn't seen to work on Spark AR Studio anymore, I just made my own script from scratch;
 * [Daanrox](https://www.instagram.com/daanrox/) (https://daanrox.com/) for creating Instagram filters, which made me see the limitations of Spark AR Studio in relation to date formats and inspired me to help her.
-*
