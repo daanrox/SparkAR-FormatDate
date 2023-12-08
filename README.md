@@ -14,8 +14,8 @@ Este script simplifica a obtenção de informações de data e hora no Spark AR 
 
 ## Contato
 Se tiver dúvidas ou precisar de mais informações, sinta-se à vontade para entrar em contato:
-- Email: [seu-email@example.com](mailto:seu-email@example.com)
-- GitHub: [Seu perfil no GitHub](https://github.com/seu-perfil)
+- Email : [contato@daanrox.com](mailto:contato@daanrox.com)
+- LinkedIn: [https://www.linkedin.com/in/daanrox/](Daanrox)
 
 ---
 
